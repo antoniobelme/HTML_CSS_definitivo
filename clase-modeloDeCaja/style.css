@@ -1,0 +1,11 @@
+* { /*Selector universal, en este caso se usa para resetear los estilos que por defecto da el navegador*/
+    padding: 0; /* Es buena práctica siempre iniciar el código con el selector universar */
+    margin: 0;
+    box-sizing: border-box; /* Esto permite que la caja se adapte a los limites de la pantalla, cuando se modifica el padding o berder, el navegador hace calculos para adapatar las medidas a la pantalla. el margin si genera un excedente */
+}
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid gray;
+    padding: 20px 35px; /*20px arriba y abajo, 35px derecha e izquierda*/
+}

@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 100vw;
+    height: 100vw; /* esto permite que el contenedor este ocupando el total del viewport la pantalla sin importar el tamaño de esta. */
+    background-color: purple;
+}
+section {
+    width: 80%;
+    min-width: 320px; /* min-width y max-width limitan el el tamaño del contendor cuando la pantalla se modifica. */
+    max-width: 500px;
+    min-height: 500px; /* no es necesario tener un height base */
+    margin: 0 auto; /* esto logra centrar el contenedor, diciendo que en top y buttom de 0 margin, y en left y rigth de un margin auto que permite ajustar el seccion o la etiqueta contendore en el centro. */
+    background-color: red;
+}

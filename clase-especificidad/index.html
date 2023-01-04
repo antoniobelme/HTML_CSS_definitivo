@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Descripción de la página.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Demo Especificidad</title>
+</head>
+<body>
+    <header class="page-header">
+        <h1 id="page-title" class="title">Empresa</h1>
+        <ul id="main-nav" class="nav">
+            <li><a href="/">Home</a></li> <!-- Las clases son genericas y se pueden repetir en varias etiquetas si se necesita aplicar el mismo -->
+            <li><a href="/">Cursos</a></li> <!-- los ID son unicos e irrepetibles, no se pueden repetir los ID en la misma página -->
+            <li><a href="/">Instructores</a></li>
+            <li><a href="/" class="blog">Blog</a></li> <!-- Aplicar estilos embebidos en las etiquetas con style es una mala práctica -->
+        </ul>
+    </header>
+</body>
+</html>

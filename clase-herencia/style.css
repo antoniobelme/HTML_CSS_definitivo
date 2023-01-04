@@ -1,0 +1,4 @@
+html { /* esta etiqueta da por defecto estilos a todas la etiquetas que contiene, por ende, es necesario resetear a conveniencia los estilos */
+    font-size: 75%; /* Si se modifica esta etiqueta estos estilos se heredan a sus etiquetas contenidas */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

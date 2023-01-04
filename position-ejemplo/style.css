@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+section {
+    margin: 50px 0;
+}
+.sec-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec-dos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec-tres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec-dos .div-uno,  .sec-dos .div-dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec-tres .div-uno,  .sec-tres .div-dos, .sec-tres .div-tres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.uno {
+    width: 140px;
+    height:  30px;
+    background-color: red;
+    border: 2px solid rgb(97, 89, 89);
+    border-radius: 4px;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+    padding: 3px;
+}
+.uno p {
+    color: white;
+    text-align: center;
+}
+.dos {
+    width: 300px;
+    min-height: 150px;
+    background-color: rgb(182, 182, 182);
+    border: 2px solid rgb(25, 25, 25);
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 40px;
+    padding: 4px;
+}
+.dos p {
+    text-align: center;
+}

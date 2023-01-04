@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;/* Esto permite modificar la medida del root, lo que hace mas manejable el rem en las etiquetas. */
+}
+p {
+    font-size: 1.6rem; /* esto me permite saber que despues de modificar el root, 1.6rem equivale a 16 px. */
+}

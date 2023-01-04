@@ -1,0 +1,24 @@
+.main-nav {
+     margin-top: 10px;
+     list-style: none;
+     padding-left: 0; /* Dimensión interna en un contenedor  */
+     background-color: #13a4a4;
+}
+.main-nav__item {
+     display: inline-block;
+}
+.main-nav__item a {
+     color: white;
+     padding: 4px;
+     border-radius: 2px;
+     text-decoration: none;
+}
+.main-nav__item a:hover { /* Pseudo clase define el estilo de un estado especial de un elemento */
+     color: rgb(5, 75, 75);
+}
+.main-nav__item a:active {
+     color: rgb(124, 131, 118);
+}
+.main-nav__item a::after { /* Pseudo elemento define una parte especifica de un elemento */
+     content: " | ";
+}

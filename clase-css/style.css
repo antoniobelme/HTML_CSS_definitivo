@@ -1,0 +1,15 @@
+/* Por elemento o  etiqueta que se quiere estilizar */
+p { 
+    color: blue;
+    font-size: 30px;
+}
+ /* Clase */
+.texto {
+    color:brown;
+}
+
+/* ID */
+#parrafo {
+    color: aquamarine;
+    font-size: 24px;
+}

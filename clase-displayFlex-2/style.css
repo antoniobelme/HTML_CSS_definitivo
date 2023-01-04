@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    align-items: baseline;
+    height: 50vh;
+}
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+.box-uno {
+    background-color: blue;
+}
+.box-dos {
+    background-color: blueviolet;
+}
+.box-tres {
+    background-color: burlywood;
+}
+.box-cuatro {
+    background-color: cadetblue;
+}
+.box-cinco {
+    background-color: coral;
+}
+.box-seis {
+    background-color: salmon;
+}
+
+
+ 

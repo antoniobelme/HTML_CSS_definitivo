@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* No es buena práctica usar ID para declarar estilos, 
+es usar algo muy poderoso sin mucho control que puede
+generar conflictos en el desarrollo */
+h1 {
+    color: purple;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+/* El Id tiene mayor prioridad para el navegador que la clase h1 al momento de cargar los estilos. 
+Se elimina el ID para permitir que la clase de la misma etiqueta sea la que declare el estilo */
+/* #page-title { 
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.title {
+    font-size: 18px;
+}
+/* Se quitan los ID #main-nav y se cambian por la clase .nav */
+.nav {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav li {
+    display: inline-block; /* esto permite que la lista se vea de manera horizontal */
+}
+.nav li a {
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.nav .blog {
+    background-color: red;
+}

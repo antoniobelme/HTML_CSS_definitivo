@@ -1,0 +1,19 @@
+/* Combinador hermano cercano, se aplica a la etique despues de la primera etiqueta */
+/* h2 + p {
+    color: red;
+} */
+
+/* Hermano general, va aplicar el estilo siempre i cuando esten en la misma línea de hermanos, misma identación */
+/* h2 ~ p {
+    color: blue;
+} */
+
+/* Hijo directo, aplica estilo a todas la etiquetas p que tengan como etiqueta padre o contendor directo una determinada etiqueta */
+/* div > p {
+    color: red;
+} */
+
+/* Descendiente, aplica estilo a todas las etiquetas p que esten dentro o centenidas dentro de un una determinada etiqueta o clase*/
+div p {
+    color: blue;
+}
